@@ -4,6 +4,7 @@
     <Introduction></Introduction>
     <Sponsors></Sponsors>
     <GridSystem></GridSystem>
+    <LargeCommunity></LargeCommunity>
   </div>
 </template>
 
@@ -13,6 +14,7 @@
   import Introduction from '@/components/Introduction.vue'
   import Sponsors from '@/components/Sponsors.vue'
   import GridSystem from '@/components/GridSystem.vue'
+  import LargeCommunity from '@/components/LargeCommunity.vue'
 
   export default {
     name: 'home',
@@ -20,7 +22,8 @@
       Navigation,
       Introduction,
       Sponsors,
-      GridSystem
+      GridSystem,
+      LargeCommunity
     }
   }
 </script>
