@@ -42,7 +42,7 @@
             </div>
           </div>
         </div>
-        <img class="crazy" src="../assets/crazy.png" alt="">
+        <img class="crazy is-hidden-mobile" src="../assets/crazy.png" alt="">
       </div>
       <div class="button-area column is-offset-1">
         <div class="button-class">
@@ -113,4 +113,5 @@
     margin-top: 20px;
     margin-bottom: 10px;
   }
+
 </style>
