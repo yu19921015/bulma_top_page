@@ -6,6 +6,8 @@
     <GridSystem></GridSystem>
     <LargeCommunity></LargeCommunity>
     <EasyToLearn></EasyToLearn>
+    <QuickToCustomize></QuickToCustomize>
+    <NoJsRequired></NoJsRequired>
     <FullScreen></FullScreen>
     <MuchMore></MuchMore>
   </div>
@@ -19,6 +21,8 @@
   import GridSystem from '@/components/GridSystem.vue'
   import LargeCommunity from '@/components/LargeCommunity.vue'
   import EasyToLearn from '@/components/EasyToLearn.vue'
+  import QuickToCustomize from '@/components/QuickToCustomize.vue'
+  import NoJsRequired from '@/components/NoJsRequired.vue'
   import FullScreen from '@/components/FullScreen.vue'
   import MuchMore from '@/components/MuchMore.vue'
 
@@ -31,6 +35,8 @@
       GridSystem,
       LargeCommunity,
       EasyToLearn,
+      QuickToCustomize,
+      NoJsRequired,
       FullScreen,
       MuchMore
     }
