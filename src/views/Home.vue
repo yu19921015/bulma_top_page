@@ -7,6 +7,7 @@
     <LargeCommunity></LargeCommunity>
     <EasyToLearn></EasyToLearn>
     <QuickToCustomize></QuickToCustomize>
+    <NoJsRequired></NoJsRequired>
   </div>
 </template>
 
@@ -19,6 +20,7 @@
   import LargeCommunity from '@/components/LargeCommunity.vue'
   import EasyToLearn from '@/components/EasyToLearn.vue'
   import QuickToCustomize from '@/components/QuickToCustomize.vue'
+  import NoJsRequired from '@/components/NoJsRequired.vue'
 
   export default {
     name: 'home',
@@ -29,7 +31,8 @@
       GridSystem,
       LargeCommunity,
       EasyToLearn,
-      QuickToCustomize
+      QuickToCustomize,
+      NoJsRequired
     }
   }
 </script>
