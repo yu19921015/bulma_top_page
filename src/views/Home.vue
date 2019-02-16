@@ -6,6 +6,8 @@
     <GridSystem></GridSystem>
     <LargeCommunity></LargeCommunity>
     <EasyToLearn></EasyToLearn>
+    <FullScreen></FullScreen>
+    <MuchMore></MuchMore>
   </div>
 </template>
 
@@ -17,6 +19,8 @@
   import GridSystem from '@/components/GridSystem.vue'
   import LargeCommunity from '@/components/LargeCommunity.vue'
   import EasyToLearn from '@/components/EasyToLearn.vue'
+  import FullScreen from '@/components/FullScreen.vue'
+  import MuchMore from '@/components/MuchMore.vue'
 
   export default {
     name: 'home',
@@ -26,7 +30,9 @@
       Sponsors,
       GridSystem,
       LargeCommunity,
-      EasyToLearn
+      EasyToLearn,
+      FullScreen,
+      MuchMore
     }
   }
 </script>
