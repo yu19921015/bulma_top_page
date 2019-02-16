@@ -6,6 +6,7 @@
     <GridSystem></GridSystem>
     <LargeCommunity></LargeCommunity>
     <EasyToLearn></EasyToLearn>
+    <QuickToCustomize></QuickToCustomize>
   </div>
 </template>
 
@@ -17,6 +18,7 @@
   import GridSystem from '@/components/GridSystem.vue'
   import LargeCommunity from '@/components/LargeCommunity.vue'
   import EasyToLearn from '@/components/EasyToLearn.vue'
+  import QuickToCustomize from '@/components/QuickToCustomize.vue'
 
   export default {
     name: 'home',
@@ -26,7 +28,8 @@
       Sponsors,
       GridSystem,
       LargeCommunity,
-      EasyToLearn
+      EasyToLearn,
+      QuickToCustomize
     }
   }
 </script>
