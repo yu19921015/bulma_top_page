@@ -10,6 +10,7 @@
     <NoJsRequired></NoJsRequired>
     <FullScreen></FullScreen>
     <MuchMore></MuchMore>
+    <SupportBulma></SupportBulma>
   </div>
 </template>
 
@@ -25,6 +26,7 @@
   import NoJsRequired from '@/components/NoJsRequired.vue'
   import FullScreen from '@/components/FullScreen.vue'
   import MuchMore from '@/components/MuchMore.vue'
+  import SupportBulma from '@/components/SupportBulma.vue'
 
   export default {
     name: 'home',
@@ -38,7 +40,8 @@
       QuickToCustomize,
       NoJsRequired,
       FullScreen,
-      MuchMore
+      MuchMore,
+      SupportBulma
     }
   }
 </script>
