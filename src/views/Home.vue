@@ -8,6 +8,8 @@
     <EasyToLearn></EasyToLearn>
     <QuickToCustomize></QuickToCustomize>
     <NoJsRequired></NoJsRequired>
+    <FullScreen></FullScreen>
+    <MuchMore></MuchMore>
   </div>
 </template>
 
@@ -21,6 +23,8 @@
   import EasyToLearn from '@/components/EasyToLearn.vue'
   import QuickToCustomize from '@/components/QuickToCustomize.vue'
   import NoJsRequired from '@/components/NoJsRequired.vue'
+  import FullScreen from '@/components/FullScreen.vue'
+  import MuchMore from '@/components/MuchMore.vue'
 
   export default {
     name: 'home',
@@ -32,7 +36,9 @@
       LargeCommunity,
       EasyToLearn,
       QuickToCustomize,
-      NoJsRequired
+      NoJsRequired,
+      FullScreen,
+      MuchMore
     }
   }
 </script>
