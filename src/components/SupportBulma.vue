@@ -3,16 +3,16 @@
     <div class="section">
       <div class="container">
         <div class="has-text-centered">
-          <div class="title is-1">
-            <span><strong>Supportaaa</strong> Bulma 😃</span>
+          <div class="title is-4">
+            <span><strong>Support</strong> Bulma 😃</span>
           </div>
         </div>
         <div class="columns is-centered">
           <div class="sponsor">
             <div class="column">
               <div class="has-text-centered">
-                <div class="subtitle">
-                  <span><strong>One-time</strong> donation</span>
+                <div class="subtitle is-6 has-text-grey-light">
+                  <span><strong class="has-text-grey-light">One-time</strong> donation</span>
                 </div>
                 <img src="../assets/paypal-donate.png" alt="" class="paypal">
               </div>
@@ -21,8 +21,8 @@
           <div class="sponsor">
             <div class="column center-column">
               <div class="has-text-centered">
-                <div class="subtitle">
-                  <span>Visit our <strong>Sponsor</strong></span>
+                <div class="subtitle is-6 has-text-grey-light">
+                  <span>Visit our <strong class="has-text-grey-light">Sponsor</strong></span>
                 </div>
                 <img src="../assets/yakaz.png" alt="" class="yakaz">
               </div>
@@ -31,8 +31,8 @@
           <div class="sponsor">
             <div class="column">
               <div class="has-text-centered">
-                <div class="subtitle">
-                  <span><strong>Monthly</strong> donation</span>
+                <div class="subtitle is-6 has-text-grey-light">
+                  <span><strong class="has-text-grey-light">Monthly</strong> donation</span>
                 </div>
                 <img src="../assets/become-a-patron.png" alt="" class="patron">
               </div>
@@ -66,9 +66,16 @@
 
   .sponsor {
     width: 240px;
+    margin-top: 1.5rem;
   }
 
   .center-column {
     margin-top: 0.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .sponsor {
+      width: 100%;
+    }
   }
 </style>
