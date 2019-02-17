@@ -12,6 +12,7 @@
     <MuchMore></MuchMore>
     <SupportBulma></SupportBulma>
     <CssIn44Minutes></CssIn44Minutes>
+    <BulmaBook></BulmaBook>
   </div>
 </template>
 
@@ -29,6 +30,7 @@
   import MuchMore from '@/components/MuchMore.vue'
   import SupportBulma from '@/components/SupportBulma.vue'
   import CssIn44Minutes from '@/components/CssIn44Minutes.vue'
+  import BulmaBook from '@/components/BulmaBook.vue'
 
   export default {
     name: 'home',
@@ -44,7 +46,8 @@
       FullScreen,
       MuchMore,
       SupportBulma,
-      CssIn44Minutes
+      CssIn44Minutes,
+      BulmaBook
     }
   }
 </script>
