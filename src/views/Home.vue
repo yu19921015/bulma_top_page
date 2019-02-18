@@ -10,6 +10,9 @@
     <NoJsRequired></NoJsRequired>
     <FullScreen></FullScreen>
     <MuchMore></MuchMore>
+    <SupportBulma></SupportBulma>
+    <CssIn44Minutes></CssIn44Minutes>
+    <BulmaBook></BulmaBook>
   </div>
 </template>
 
@@ -25,6 +28,9 @@
   import NoJsRequired from '@/components/NoJsRequired.vue'
   import FullScreen from '@/components/FullScreen.vue'
   import MuchMore from '@/components/MuchMore.vue'
+  import SupportBulma from '@/components/SupportBulma.vue'
+  import CssIn44Minutes from '@/components/CssIn44Minutes.vue'
+  import BulmaBook from '@/components/BulmaBook.vue'
 
   export default {
     name: 'home',
@@ -38,7 +44,10 @@
       QuickToCustomize,
       NoJsRequired,
       FullScreen,
-      MuchMore
+      MuchMore,
+      SupportBulma,
+      CssIn44Minutes,
+      BulmaBook
     }
   }
 </script>
